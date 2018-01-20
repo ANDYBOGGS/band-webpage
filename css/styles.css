@@ -9,8 +9,16 @@ h2 {
   letter-spacing: .3em;
 }
 
-p {
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+body {
   font-family: sans-serif;
+}
+
+p {
   text-align: center;
   border-style: dotted;
   padding: 8px;
@@ -28,11 +36,7 @@ p {
  width: 50%
 }
 
-li {
-  display: inline;
-  margin-right: 100px;
-}
-
-body {
-  font-family: sans-serif;
+.right {
+  position: absolute;
+  right: 0px;
 }
